@@ -1,0 +1,46 @@
+/* استایل‌دهی کلی */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* ویدیو پس‌زمینه */
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(50%);
+  object-fit: cover; /* این خط را اضافه کنید */
+}
+
+
+/* کانتینر Admin */
+.admin-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.admin-container h2 {
+  margin-bottom: 20px;
+}
+
+.admin-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

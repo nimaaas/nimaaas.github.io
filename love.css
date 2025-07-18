@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0; /* رنگ آرام و عاشقانه */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #d147a3;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff66b2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cc558e;
+}
